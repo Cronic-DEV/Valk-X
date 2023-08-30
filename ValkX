@@ -634,8 +634,8 @@ for Index, Function in pairs(HookedFunctions) do
     Function[4] = hookfunction(Function[2], Function[3]);
 end
 
-local MainUI = UILibrary.new(Color3.fromRGB(255, 79, 87));
-local Window = MainUI:LoadWindow('<font color="#0001ff">fates</font> esp', UDim2.fromOffset(400, 279));
+local MainUI = UILibrary.new(Color3.fromRGB(0, 0, 255));
+local Window = MainUI:LoadWindow('<font color="#0001ff">ValkX</font> V1', UDim2.fromOffset(400, 279));
 local ESP = Window.NewPage("esp");
 local Aimbot = Window.NewPage("aimbot");
 local EspSettingsUI = ESP.NewSection("Esp");
